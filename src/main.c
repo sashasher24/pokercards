@@ -148,7 +148,7 @@ void combination(char *cards[]) {
          exit(0);
      }
      else if (flash(cards)) {
-        mx_printstr("Flash");
+        mx_printstr("Flush");
         exit(0);
     }
     else if (full_house(cards)) {
