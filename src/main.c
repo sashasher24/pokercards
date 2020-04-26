@@ -47,7 +47,7 @@ void inval_card(char *cards[]) {
         }
         else if (!rank && suit) {
 	    mx_printerr("Invalid rank: ");
-            mx_printerr(&cards[i][j]);
+            mx_printerr(&cards[i][0]);
             mx_printerr("\n");
             exit(1);
         }
